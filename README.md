@@ -7,7 +7,7 @@ An app that runs in the terminal prompting the user with some questions what kin
 
 ## Mock-Up
 
-The following image shows a mock-up of the generated SVG given the following input entered by the user: `SVG` for the text, `white` for the text color, `circle` from the list of shapes, and `green` for the shape color. Note that this is just an image of the output SVG and not the SVG file itself:
+The following image shows a mock-up of the generated SVG given the following input entered by the user: `SVG` for the text, `white` for the text color, `circle` from the list of shapes, and `orange` for the shape color. Note that this is just an image of the output SVG and not the SVG file itself:
 
 ![Image showing a orange circle with white text that reads "mvp".](./Assets/logoMakerExample.png)
 

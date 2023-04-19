@@ -1,14 +1,18 @@
+// imports and variables
+
 const fs = require('fs');
 const inquirer = require('inquirer');
 const {Circle} = require('./lib/shapes')
 const {Square} = require('./lib/shapes')
 const {Triangle} = require('./lib/shapes')
 
+// questions that the user is prompted with
 const questions = [{
 
     name: 'text',
     message: 'Enter 3 characters for your logo.',
     type: 'input',
+    // only takes three letters
     validate: text => text.length <= 3,
 },
 {
@@ -29,6 +33,7 @@ const questions = [{
 },
 ]
 
+// code starts here
 function logoPrompt() {
     inquirer.prompt(questions)
         .then(function(data){
